@@ -1,0 +1,16 @@
+.footer {
+    height:50px; 
+    width: 100%;
+    background-image: url(../../assets/banner.png);
+    background-size: cover; 
+    display: flex;
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
+
+    color: white;
+    font-size: 16px; 
+
+    position: fixed;
+    bottom: 0;
+
+}
