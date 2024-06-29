@@ -20,7 +20,9 @@ export const StyledList = styled.div `
             border: 1px solid #ccc;
             box-sizing: border-box;
             padding:10px;
+            }
         }
+        
         button{
             width:105px;
             height: 54px;
@@ -32,6 +34,11 @@ export const StyledList = styled.div `
 
             &:hover{
                 background-color: #f0f0f0;
+            }
+
+            &:disabled{
+                background-color: #141228;
+                color: #ffffff;
             }
         }
 `

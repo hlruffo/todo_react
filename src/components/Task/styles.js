@@ -18,5 +18,6 @@ export const StyledTask = styled.div `
 
         &:hover{
             color: #ff0000;
+        }
     }
 `
